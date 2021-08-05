@@ -14609,11 +14609,11 @@ button.bg-white:focus
     {
         margin: -6rem !important;
     }
-    .mt-xl-n7,
+    /* .mt-xl-n7,
     .my-xl-n7
     {
         margin-top: -6rem !important;
-    }
+    } */
     .mr-xl-n7,
     .mx-xl-n7
     {
@@ -14793,6 +14793,7 @@ button.bg-white:focus
 {
     text-align: center !important;
 }
+
 
 @media (min-width: 576px)
 {
@@ -16699,6 +16700,12 @@ button.bg-black:focus
     {
         background-image: none !important;
     }
+    .mt-n7, .my-n7 {
+        margin-top: 0 !important;
+    }
+    .slice-lg{
+        padding-bottom: 0 !important;
+    }
 }
 
 @media (max-width: 991.98px)
@@ -16706,6 +16713,9 @@ button.bg-black:focus
     .bg-md-cover
     {
         background-image: none !important;
+    }
+    .osopma {
+        margin-top: 50px;
     }
 }
 
