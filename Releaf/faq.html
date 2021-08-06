@@ -48,14 +48,15 @@
         body.loaded>div.preloader {
             animation: hidePreloader .5s linear .5s forwards;
         }
-         :root {
-         --main-color: #18379A;
-         --sec-color: #00E59E;
-         }
+
+        :root {
+            --main-color: #18379A;
+            --sec-color: #00E59E;
+        }
     </style>
     <script>
-        window.addEventListener("load", function() {
-            setTimeout(function() {
+        window.addEventListener("load", function () {
+            setTimeout(function () {
                 document.querySelector('body').classList.add('loaded');
             }, 300);
         });
@@ -73,13 +74,15 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cookies" data-backdrop="false" aria-labelledby="modal-cookies" aria-hidden="true">
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal-cookies" data-backdrop="false"
+        aria-labelledby="modal-cookies" aria-hidden="true">
         <div class="modal-dialog modal-dialog-aside left-4 right-4 bottom-4">
             <div class="modal-content bg-dark-dark">
                 <div class="modal-body">
                     <!-- Text -->
                     <p class="text-sm text-white mb-3">
-                        We use cookies so that our themes work for you. By using our website, you agree to our use of cookies.
+                        We use cookies so that our themes work for you. By using our website, you agree to our use of
+                        cookies.
                     </p>
                     <!-- Buttons -->
                     <a href="pages/utility/terms.html" class="btn btn-sm btn-white" target="_blank">Learn more</a>
@@ -97,7 +100,8 @@
                 <img alt="Image placeholder" src="assets/img/brand/logo_t.png" id="navbar-logo">
             </a>
             <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Collapse -->
@@ -133,7 +137,8 @@
                     </li> -->
                 </ul>
                 <!-- Button -->
-                <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" href="http://kudibenefits.chat/">
+                <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+                    href="http://kudibenefits.chat/">
                     Get Started
                 </a>
                 <!-- Mobile button -->
@@ -146,125 +151,357 @@
     <!-- Main content -->
     <section class="faq-section">
         <div class="container">
-          <div class="row">
-                            <!-- ***** FAQ Start ***** -->
-                            <div class="col-md-6 offset-md-3">
-        
-                                <div class="faq-title text-center pb-3">
-                                    <h2>FAQ</h2>
+            <div class="row">
+                <!-- ***** FAQ Start ***** -->
+                <div class="col-md-6 offset-md-3">
+
+                    <div class="faq-title text-center pb-3">
+                        <h2>FAQ</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                    <div class="faq" id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1"
+                                        data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                        <span class="badge">1</span>What is a “Releaf Benefits Account” ?
+                                    </h5>
                                 </div>
                             </div>
-                            <div class="col-md-6 offset-md-3">
-                                <div class="faq" id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-1">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                                    <span class="badge">1</span>What is Lorem Ipsum?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-2">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                                    <span class="badge">2</span> Where does it come from?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-3">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                                    <span class="badge">3</span>Why do we use it?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-4">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                                    <span class="badge">4</span> Where can I get some?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-5">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                                    <span class="badge">5</span> What is Lorem Ipsum?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-6">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                                    <span class="badge">6</span> Where does it come from?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="faqHeading-7">
-                                            <div class="mb-0">
-                                                <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
-                                                    <span class="badge">7</span> Why do we use it?
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
-                                            <div class="card-body">
-                                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>With a Releaf Benefits account, you receive rewards for embracing cashless
+                                        services, send and receive money easily, activate a savings plan, buy airtime at
+                                        discounted rates and you can make money as well, offering these services to
+                                        others.
+                                    </p>
                                 </div>
                             </div>
-                          </div>
                         </div>
-                        </section>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                        <span class="badge">2</span>How do I start using the Account?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>All you have to do is launch the start page and activate any or all of the bank
+                                        options and proceed with details of your BVN, names and date of birth and your
+                                        account gets activated in a few minutes. You also have the option to open more
+                                        than one account.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">3</span>I do not know my BVN, what do I do?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>If you do not know your BVN but you have registered and enrolled for BVN, simply
+                                        dial *565*0# on the phone number linked to your bank verification number.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span>I am not getting OTP, what do I do?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>If you are not getting OTPs, chances are that your line is on DND (Do Not
+                                        Disturb). <br />To deactivate DND on any MTN number,<br />Text ALLOW to 2442.
+                                        <br />To deactivate DND on any Airtel number,br/>Text ALLOW to 2442. To
+                                        deactivate DND on any Glo number,<br />Text CANCEL to 2442.<br /><br />
+                                        You’ll also get the USSD code, you can dial it and return to the platform to say
+                                        that you have dialed the code.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span> How do I fund my account?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Once your account is activated, you get assigned an account number and you can
+                                        fund the accounts easily by sending funds into your account.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-6">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-6">
+                                        <span class="badge">6</span>Why is BVN information important?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>The BVN verification process only confirms that your personal details provided
+                                        are the same as it is in your BVN for proper KYC documentation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">7</span>What can you do on the Releaf Benefits Account?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Your special account offers cash loans at low interest rates, all transfers at
+                                        N9.50 flat fee charge, secure savings, discounted airtime, receive payments
+                                        safely and efficiently.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">8</span>How much does it cost me to send money?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>It costs only N9.50 to send money. regardless of how much you are sending.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">9</span>How do I transfer money from my account?
+
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>All you need to do is click on the start menu, select your account, click send
+                                        money, enter amount, recipient’s account number, narration, select bank and
+                                        enter your transaction pin.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">10</span>How do I buy airtime from my account?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>All you need to do is click on the start menu, select your account, click send
+                                        money, enter amount, recipient’s account number, narration, select bank and
+                                        enter your transaction pin.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">11</span>How can I make money for myself using this account?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, you can also make money for yourself by being an agent. You can assist
+                                        people to send money and charge between N100-N200 commission for the service and
+                                        2% off every airtime top-up.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">12</span>Why do I need to set up a pin?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Setting a pin is a critical step in ensuring your account is secure. Your 5-digit
+                                        pin will be required to access your account each time you log in to prevent
+                                        unauthorised access.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">13</span>Are bank transfers instant for all banks? How long
+                                        does it take to reflect?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>How long does it take to reflect in the customer’s account: There are delays
+                                        sometimes but transfers are instant and reflect in less than a minute or two.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">14</span>Can I have more than one account?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, this is possible. Customers can open accounts in all the bank options that
+                                        show up.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">15</span>Can I access and get loans?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Yes, we give loans and you will be able to get one automatically if you use your
+                                        account regularly to send, receive money and buy airtime.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">16</span>Why do you need my BVN?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p> The Bank Verification Number is used to confirm that your personal information
+                                        submitted is valid for proper KYC documentation.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">17</span>When I have an issue, who do I talk to?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p> A dedicated contact centre desk can be accessed via telephone, also within the
+                                        Releaf Benefits Account, complaints and issues can be logged.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="position-relative" id="footer-main">
         <div class="footer pt-lg-7 footer-dark bg-dark">
             <!-- SVG shape -->
             <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
-                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class=" fill-section-secondary">
+                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px"
+                    viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve"
+                    class=" fill-section-secondary">
                     <polygon points="2560 0 2560 100 0 100"></polygon>
                 </svg>
             </div>
