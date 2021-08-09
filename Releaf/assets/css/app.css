@@ -23877,7 +23877,7 @@ textarea[resize='horizontal']
     }
     .navbar-expand-lg .navbar-collapse
     {
-        background: #fff;
+        background: var(--main-color);
     }
     .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link
     {
@@ -26139,7 +26139,8 @@ article p
     }
     .navbar-expand-lg .navbar-collapse
     {
-        background: #fff;
+        background: var(--main-color);
+
     }
     .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item .nav-link
     {
